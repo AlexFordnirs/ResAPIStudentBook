@@ -18,6 +18,7 @@ namespace StudentAPI.Models
         public string NAME_GROUP { get; set; }
         public string SPECIALIZ_GROUP { get; set; }
         public int STUDENT_ID { get; set; }
+        public Student Student { get; set; }
     }
     public partial class StudentsHomeVork
     {
@@ -25,6 +26,7 @@ namespace StudentAPI.Models
         public int GROUP_STUDENT_ID { get; set; }
         public string NAZVANIE_HOMEVORK { get; set; }
         public string ZADANIE { get; set; }
+        public GROUP_STUDENT GROUP_STUDENT { get; set; }
     }
     public partial class StudentsRaspisanie
     {
@@ -32,5 +34,6 @@ namespace StudentAPI.Models
         public DateTime DATE_SI_VORK_STUDENT { get; set; }
         public string NAZVANIE_PREDMETA { get; set; }
         public int GROUP_STUDENT_ID { get; set; }
+        public GROUP_STUDENT GROUP_STUDENT { get; set; }
     }
 }
