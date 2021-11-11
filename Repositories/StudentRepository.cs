@@ -48,7 +48,7 @@ namespace BookAPI.Repositories
             await _context.SaveChangesAsync();
         }
 
-        ////////////////////////////////// GROUP_STUDENT
+       /* ////////////////////////////////// GROUP_STUDENT
         public async Task<GROUP_STUDENT> Create_Group(GROUP_STUDENT GROUP_book)
         {
             _context.GROUP_STUDENT_Books.Add(GROUP_book);
@@ -78,7 +78,7 @@ namespace BookAPI.Repositories
         public async Task<GROUP_STUDENT> Get_GROUP_book(int id)
         {
             return await _context.GROUP_STUDENT_Books.FindAsync(id);
-        }
+        }*/
 
 
         //////////////////////////////////StudentsHomeVork

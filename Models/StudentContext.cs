@@ -15,7 +15,7 @@ namespace StudentAPI.Models
             Database.EnsureCreated();
         }
         public DbSet<Student> Books { get; set; }
-        public DbSet<GROUP_STUDENT> GROUP_STUDENT_Books { get; set; }
+      //  public DbSet<GROUP_STUDENT> GROUP_STUDENT_Books { get; set; }
         public DbSet<StudentsHomeVork> StudentsHomeVork_Books { get; set; }
         public DbSet<StudentsRaspisanie> StudentsRaspisanie_Books { get; set; }
     }

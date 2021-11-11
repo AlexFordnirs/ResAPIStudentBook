@@ -16,11 +16,11 @@ namespace BookAPI.Repositories
         Task Update(Student book);
         Task Delete(int id);
         //////////////////////////////////GROUP_STUDENT
-        Task<IEnumerable<GROUP_STUDENT>> Get_GROUP_Book();
+       /* Task<IEnumerable<GROUP_STUDENT>> Get_GROUP_Book();
         Task<GROUP_STUDENT> Get_GROUP_book(int id);
         Task<GROUP_STUDENT> Create_Group(GROUP_STUDENT GROUP_book);
         Task Update_Group(GROUP_STUDENT GROUP_book);
-        Task Delete_Group(int id);
+        Task Delete_Group(int id);*/
         //////////////////////////////////StudentsHomeVork
         Task<IEnumerable<StudentsHomeVork>> StudentsHomeVork_Book();
         Task<StudentsHomeVork> StudentsHomeVork_book(int id);
